@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VORTICE · Cuatro objetos que vas a querer usar todos los días</title>
+<meta name="description" content="Ventilador portátil, dos relojes y una botella azul. Pide por WhatsApp y recibe en tu casa.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;800&family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="glow" id="glow"></div>
+
+<header class="nav">
+  <a href="#inicio" class="logo">VORTICE</a>
+  <nav>
+    <a href="#productos">Productos</a>
+    <a href="#por-que">Por qué VORTICE</a>
+    <a href="#contacto">Contacto</a>
+  </nav>
+  <button class="cart-btn" id="cartBtn" aria-label="Abrir carrito">🛒 <span id="cartCount">0</span></button>
+</header>
+
+<section class="hero" id="inicio">
+  <div class="blob b1"></div><div class="blob b2"></div><div class="blob b3"></div>
+  <div class="hero-text">
+    <p class="pill">🔥 Stock limitado · Solo 4 productos</p>
+    <h1>Hazlo tuyo<br><span class="grad">antes que se agote.</span></h1>
+    <p class="sub">Aire fresco en tu bolsillo, tiempo en tu muñeca y agua siempre contigo. Elige, escríbenos y lo tienes en casa.</p>
+    <div class="cta-row">
+      <a href="#productos" class="btn primary">Ver productos</a>
+      <a href="#por-que" class="btn ghost">Por qué VORTICE</a>
+    </div>
+  </div>
+  <div class="hero-stack" aria-hidden="true">
+    <img src="img/Reloj elegante.jpeg" alt="" class="hs h1i">
+    <img src="img/Deportivo.jpeg" alt="" class="hs h2i">
+    <img src="img/Ventilador.jpeg" alt="" class="hs h3i">
+  </div>
+</section>
+
+<div class="marquee" aria-hidden="true">
+  <div class="track">
+    <span>Envío a todo el país</span><span>Pago fácil</span><span>Atención por WhatsApp</span><span>Entrega rápida</span><span>Envío a todo el país</span><span>Pago fácil</span><span>Atención por WhatsApp</span><span>Entrega rápida</span>
+  </div>
+</div>
+
+<section class="products" id="productos">
+  <h2 class="title reveal">Elige el tuyo</h2>
+  <p class="lead reveal">Toca “Agregar” y termina tu pedido por WhatsApp en un clic.</p>
+  <div class="grid">
+
+    <article class="card reveal" data-id="ventilador" data-name="Ventilador portátil con cordón" data-price="45000" style="--c:#00e5ff">
+      <span class="tag">Más pedido</span>
+      <div class="img-wrap"><img src="img/Ventilador.jpeg" alt="Ventilador portátil con pantalla digital y cordón" loading="lazy"></div>
+      <h3>Ventilador portátil</h3>
+      <p>Pantalla digital, indicador de batería y cordón para colgarlo al cuello. Manos libres, aire siempre.</p>
+      <div class="foot"><strong>$45.000</strong><button class="add">Agregar</button></div>
+    </article>
+
+    <article class="card reveal" data-id="botella" data-name="Botella azul con tapa metálica" data-price="25000" style="--c:#3d7bff">
+      <div class="img-wrap"><img src="img/Termo.jpeg" alt="Botella azul translúcida con tapa metálica" loading="lazy"></div>
+      <h3>Botella azul</h3>
+      <p>Cuerpo translúcido azul eléctrico, tapa metálica y gran capacidad. Hidrátate con estilo.</p>
+      <div class="foot"><strong>$25.000</strong><button class="add">Agregar</button></div>
+    </article>
+
+    <article class="card reveal" data-id="sport" data-name="Reloj deportivo digital MX-501" data-price="35000" style="--c:#ffc400">
+      <div class="img-wrap"><img src="img/Deportivo.jpeg" alt="Reloj deportivo digital negro con detalles amarillos" loading="lazy"></div>
+      <h3>Reloj Sport digital</h3>
+      <p>Look rudo negro con acentos amarillos, luz LED y botones grandes. Hecho para moverse.</p>
+      <div class="foot"><strong>$35.000</strong><button class="add">Agregar</button></div>
+    </article>
+
+    <article class="card reveal" data-id="curren" data-name="Reloj CURREN negro con correa de silicona" data-price="85000" style="--c:#ff3d71">
+      <span class="tag hot">Elegante</span>
+      <div class="img-wrap"><img src="img/Reloj elegante.jpeg" alt="Reloj CURREN negro con calendario y correa de silicona" loading="lazy"></div>
+      <h3>Reloj CURREN negro</h3>
+      <p>Esfera con calendario, caja negra y correa de silicona con costura. Sobrio para la oficina, firme para la calle.</p>
+      <div class="foot"><strong>$85.000</strong><button class="add">Agregar</button></div>
+    </article>
+
+  </div>
+</section>
+
+<section class="why" id="por-que">
+  <h2 class="title reveal">Compra tranquilo</h2>
+  <div class="why-grid">
+    <div class="why-item reveal"><b class="count" data-to="4">0</b><p>productos elegidos uno a uno</p></div>
+    <div class="why-item reveal"><b class="count" data-to="24">0</b><p>horas para responderte</p></div>
+    <div class="why-item reveal"><b class="count" data-to="100">0</b><p>% atención personalizada</p></div>
+  </div>
+</section>
+
+<section class="final" id="contacto">
+  <h2 class="title reveal">¿Cuál va a ser el tuyo?</h2>
+  <p class="lead reveal">Cuando se vendan, no vuelven. Escríbenos ahora.</p>
+  <a class="btn primary big" id="waMain" target="_blank" rel="noopener">Escribir por WhatsApp</a>
+</section>
+
+<footer>© <span id="year"></span> VIBRA · Todos los derechos reservados</footer>
+
+<aside class="drawer" id="drawer" aria-hidden="true">
+  <div class="d-head"><h3>Tu pedido</h3><button id="closeCart" aria-label="Cerrar">✕</button></div>
+  <ul id="cartList"></ul>
+  <div class="d-foot">
+    <div class="total">Total <strong id="cartTotal">$0</strong></div>
+    <button class="btn primary full" id="checkout">Pedir por WhatsApp</button>
+  </div>
+</aside>
+<div class="overlay" id="overlay"></div>
+<div class="toast" id="toast"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
